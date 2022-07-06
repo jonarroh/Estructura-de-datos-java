@@ -1,9 +1,13 @@
-import javax.swing.*;
-import java.util.ArrayList;
+import com.recursividad.recursivo;
+
 
 public class main {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        recursivo r = new recursivo();
+        System.out.println(r.factorial(5));
+
+
+
     }
 
 
